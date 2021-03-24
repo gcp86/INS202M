@@ -46,8 +46,8 @@
                 "height": 100
               },
               "position": {
-                "x": 144,
-                "y": 186
+                "x": 77,
+                "y": 230
               },
               "angle": 0,
               "id": "504e04c0-bdf2-4936-a5ac-26f8c2efb760",
@@ -72,8 +72,8 @@
                 "height": 80
               },
               "position": {
-                "x": 363,
-                "y": 57
+                "x": 590,
+                "y": 50
               },
               "angle": 0,
               "id": "ba0d9715-6574-4db9-80c8-ef7548482af3",
@@ -88,6 +88,173 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 308,
+                "y": 339
+              },
+              "angle": 0,
+              "id": "b3ffeba3-a89b-4570-b448-88b2aeffb0bb",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Administrator"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 591,
+                "y": 357
+              },
+              "angle": 0,
+              "id": "6cd6238c-bcb6-4660-999e-654a11d59e4d",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 71,
+                "y": 340
+              },
+              "angle": 0,
+              "id": "89308afb-aa8f-41fe-ae97-cc048297f407",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Application Config"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 279,
+                "y": 181
+              },
+              "angle": 0,
+              "id": "d203784f-0ebf-4a0c-9bf0-9ec15f372544",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Search"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 507,
+                "y": 189
+              },
+              "angle": 0,
+              "id": "62af89d6-7af8-49cc-965d-6d0c0a7b5453",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Catalog Page"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "4b6236fd-11a9-475e-9f60-ad884edeee36"
+              },
+              "target": {
+                "id": "504e04c0-bdf2-4936-a5ac-26f8c2efb760"
+              },
+              "vertices": [],
+              "id": "274b26c8-68d0-427f-b219-a2aa35d2e315",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.500002184967561,
+                    "offset": -23.527285486039
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Web Request (HTTPS)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
