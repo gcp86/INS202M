@@ -1,7 +1,8 @@
 {
   "summary": {
     "title": "INS202M",
-    "owner": "Gian Pallera"
+    "owner": "Gian Pallera",
+    "description": "Description"
   },
   "detail": {
     "contributors": [],
