@@ -27,6 +27,7 @@
               "id": "4b6236fd-11a9-475e-9f60-ad884edeee36",
               "z": 1,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -79,6 +80,7 @@
               "id": "ba0d9715-6574-4db9-80c8-ef7548482af3",
               "z": 3,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
